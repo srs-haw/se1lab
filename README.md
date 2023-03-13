@@ -61,4 +61,4 @@ Sven Berding, sven.berding(at)haw-hamburg.de
 8. Öffne ein Terminal in IntelliJ (`View->Tool Windows->Terminal` im Menü). Führe die Tests wie unter A.5 beschrieben hier im Terminal aus.
    - Unter Windows: evtl. nutzt IntelliJ die Windows Powershell PS. In diesem Falle rufst du dort wieder `cmd`auf (siehe A.2) oder kannst auch das Default-Terminal von IntelliJ unter `Preferences->Tools->Terminal->Shell Path` ändern.
 
-9. Du kannst auch die Tests durch die IDE ausführen lassen. Gehe dazu mit der rechten Maustaste auf Dein Projekt und wähle `Run Tests in in2lab`.
+9. Du kannst auch die Tests durch die IDE ausführen lassen. Gehe dazu mit der rechten Maustaste auf Dein Projekt und wähle `Run Tests in se1lab`.
