@@ -56,9 +56,9 @@ Sven Berding, sven.berding(at)haw-hamburg.de
 
 6. Setze bei den Preferences unter `Build,Execution,Deployment->Build Tools->Gradle` die Optionen `Build an run using` und `Run tests using` auf `Gradle`.
 
-7. Setze unter `File->Project Structure` das JDK (Option `Project Settings->Project`) auf deine JDK-Version (z.B. `1.8` für das JDK 8 bzw. entsprechend dein heruntergeladenes JDK - evtl. musst du das JDK erst hinzufügen: Option `Platform Settings->SDKs`).
+7. Setze unter `File->Project Structure` das JDK (Option `Project Settings->Project`) auf deine JDK-Version (entsprechend dein heruntergeladenes JDK - evtl. musst du das JDK erst hinzufügen: Option `Platform Settings->SDKs`).
 
-8. Öffne ein Terminal in IntelliJ (`View->Tool Windows->Terminal` im Menü). Führe die Tests wie unter A.7 beschrieben hier im Terminal aus.
-   - Unter Windows: evtl. nutzt IntelliJ die Windows Powershell PS. In diesem Falle rufst du dort wieder `cmd`auf (siehe A.4) oder kannst auch das Default-Terminal von IntelliJ unter `Preferences->Tools->Terminal->Shell Path` ändern.
+8. Öffne ein Terminal in IntelliJ (`View->Tool Windows->Terminal` im Menü). Führe die Tests wie unter A.5 beschrieben hier im Terminal aus.
+   - Unter Windows: evtl. nutzt IntelliJ die Windows Powershell PS. In diesem Falle rufst du dort wieder `cmd`auf (siehe A.2) oder kannst auch das Default-Terminal von IntelliJ unter `Preferences->Tools->Terminal->Shell Path` ändern.
 
 9. Du kannst auch die Tests durch die IDE ausführen lassen. Gehe dazu mit der rechten Maustaste auf Dein Projekt und wähle `Run Tests in in2lab`.
