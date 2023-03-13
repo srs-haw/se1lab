@@ -8,26 +8,22 @@ Sven Berding, sven.berding(at)haw-hamburg.de
 ## A. Einrichtung des JDK und Ausführen der Tests
 
 1. Installiere lokal auf Deinem Rechner:
-    - Java OpenJDK (**nicht das Java Runtime Environment (JRE)**! Mindestens das **JDK 8**, erfolgreich getestet auch mit JDK 17: https://openjdk.java.net. 
+    - Java OpenJDK (**nicht das Java Runtime Environment (JRE)**! Mindestens das **JDK 11**, erfolgreich getestet auch mit JDK 17: https://openjdk.org. 
     - Unter Windows: 
       - JAVA_HOME setzen und den Compiler in den PATH aufnehmen ([Anleitung hier](https://tecadmin.net/set-java-home-on-windows/)); verwende dort statt des in den Screenshots gezeigten `jdk1.8.0_121` entsprechend deine installierte Version!
-    
-2. Forke dieses Projekt (nutze den `Fork`-Button oben rechts).
 
-3. Trage uns (Sven Berding und mich) unter `Settings->Members` als Projektmitglieder mit der Berechtigung `Maintainer` ein.
-
-4. Öffne ein Terminal-Fenster.
+2. Öffne ein Terminal-Fenster.
    - Unter Windows: Nutze die Windows-Kommandozeile (cmd) und nicht die Powershell (PS)! Falls du dich in einer Powershell befindest (sichtbar durch das `PS` am Zeilenanfang), rufe `cmd` auf, um eine Windows-Kommandozeile zu öffnen. Bei Änderungen der Systemeinstellungen (JAVA_HOME, PATH, ...) muss das Terminal neu geöffnet werden, damit die Änderungen effektiv werden.
    - Falls du noch nicht sicher im Umgang mit einem Terminal bist (Verzeichnisse wechseln, etc.), schaue dir ein Tutorial wie z.B. [dieses für Windows](https://www.makeuseof.com/tag/a-beginners-guide-to-the-windows-command-line/) oder [dieses für Linux](https://ubuntu.com/tutorials/command-line-for-beginners#1-overview) oder [diese für macOS](https://www.makeuseof.com/tag/mac-terminal-commands-cheat-sheet/) an.
 
-5. Klone Dein geforktes Projekt: 
+3. Klone Dein Projekt: 
     ```bash
-    git clone https://git.haw-hamburg.de/<Dein-geforktes-Projekt>
+    git clone https://github.com/srs-haw/se1lab.git
     ```
 
-6. Prüfe mittels `javac -version` (vergiss das "c" nicht!), ob Du das korrekte JDK verwendest! Falls nicht, achte auf die korrekte Einrichtung des JDK (Punkt 1) und ob du in der richtigen Shell (unter Windows: cmd anstelle von PS)  bist.
+4. Prüfe mittels `javac -version` (vergiss das "c" nicht!), ob Du das korrekte JDK verwendest! Falls nicht, achte auf die korrekte Einrichtung des JDK (Punkt 1) und ob du in der richtigen Shell (unter Windows: cmd anstelle von PS)  bist.
 
-7. Führe die Tests im Terminal aus mittels 
+5. Führe die Tests im Terminal aus mittels 
      ```bash
      ./gradlew clean build (unter Linux/macOS, bei Bedarf dort zuvor "chmod +x ./gradlew" ausführen, um die Ausführungsberechtigung zu setzen)
      ```
