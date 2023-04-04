@@ -8,7 +8,7 @@ Sven Berding, sven.berding(at)haw-hamburg.de
 ## A. Einrichtung des JDK und Ausführen der Tests
 
 1. Installiere lokal auf Deinem Rechner:
-    - Java OpenJDK (**nicht das Java Runtime Environment (JRE)**! Mindestens das **JDK 11**, erfolgreich getestet auch mit JDK 17: https://openjdk.org. 
+    - Java OpenJDK (**nicht das Java Runtime Environment (JRE)**! Mindestens das **JDK 11**, erfolgreich getestet auch mit JDK 17: https://openjdk.org. JDK 20 läuft auf dem Terminal, allerdings nicht in IntelliJ.
     - Unter Windows: 
       - JAVA_HOME setzen und den Compiler in den PATH aufnehmen ([Anleitung hier](https://tecadmin.net/set-java-home-on-windows/)); verwende dort statt des in den Screenshots gezeigten `jdk1.8.0_121` entsprechend deine installierte Version!
 
